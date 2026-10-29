@@ -1,0 +1,24 @@
+# python
+venv/
+__pycache__/
+*.pyc
+
+# third-party repo + model weights (too large for GitHub)
+TrackNetV3/
+*.pt
+*.pth
+
+# videos (too large; share the demo on LinkedIn/YouTube instead)
+*.mp4
+*.avi
+*.mov
+
+# generated outputs and backups
+outputs/
+*_final.py
+*_backup.*
+*.mp4
+*.pt
+outputs/
+venv/
+__pycache__/
